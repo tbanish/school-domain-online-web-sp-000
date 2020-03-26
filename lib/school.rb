@@ -17,7 +17,7 @@ class School
   end 
   
   def grade(grade)
-    @roster.map {|grade|, grade.values}
+    @roster.map {|grade| grade.values}
   end 
 
   
