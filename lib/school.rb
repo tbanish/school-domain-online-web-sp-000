@@ -21,9 +21,9 @@ class School
   end 
 
   def sort
-    @roster.sort_by {|grade, student_name| [-student_name, grade]
+    @roster.sort
   end
 
-  #hash.sort_by {|k, v| [-v, k]}
+
   
 end
