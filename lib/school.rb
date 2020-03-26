@@ -20,7 +20,8 @@ class School
     @roster.fetch(grade)
   end 
 
-  
+  def sort
+  end
 
   
   
