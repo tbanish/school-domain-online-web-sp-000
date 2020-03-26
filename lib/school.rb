@@ -17,11 +17,11 @@ class School
   end 
   
   def grade(grade)
-    @roster.values_at(grade)
+    @roster.fetch(grade)
   end 
 
   
-#h.values_at(key1, key2)
+
   
   
 end
