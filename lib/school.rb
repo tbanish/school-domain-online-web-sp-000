@@ -21,7 +21,7 @@ class School
   end 
 
   
-furniture.map {|x| x.values}
+#furniture.map {|x| x.values}
   
   
 end
