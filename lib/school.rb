@@ -17,11 +17,11 @@ class School
   end 
   
   def grade(grade)
-    @roster.each {|grade, student_name| student_name}
+    @roster.map {|grade|, grade.values}
   end 
 
   
-
+furniture.map {|x| x.values}
   
   
 end
